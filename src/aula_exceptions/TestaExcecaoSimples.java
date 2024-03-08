@@ -7,7 +7,7 @@ public class TestaExcecaoSimples {
 		String nomes[] = { "João", "Maria", "Pedro", "Manuela" };
 
 		try {
-			for (int i = 0; i < nomes.length; i++) {
+			for (int i = 0; i <= nomes.length; i++) {
 				System.out.println(nomes[i]);
 			}
 		} catch (ArrayIndexOutOfBoundsException e) {
